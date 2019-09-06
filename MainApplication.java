@@ -78,8 +78,8 @@ public class MainApplication extends JFrame {
 		label_7.setBounds(398, 155, 36, 14);
 		getContentPane().add(label_7);
 		
-		firstProgressBar = new ProgressController(progressBar, label_4, lblNewLabel, 5000);
-		secondProgressBar = new ProgressController(progressBar_1, label_5, 20);
+		firstProgressBar = new ProgressController(progressBar, label_4, lblNewLabel, 800);
+		secondProgressBar = new ProgressController(progressBar_1, label_5, 1000);
 		thirdProgressBar = new ProgressController(progressBar_2, label_6, 500);
 		fourthProgressBar = new ProgressController(progressBar_3, label_7, 100);
 		
